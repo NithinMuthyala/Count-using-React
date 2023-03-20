@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-val {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+.check {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+button {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 3px;
+  padding: 6px;
+}
